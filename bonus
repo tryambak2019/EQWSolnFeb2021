@@ -1,0 +1,11 @@
+
+	Interpretation:
+	Density column is the ratio of Requests to POI_Area. log_Density was calculated by taking log10 of Density values. log_Density were scaled in range (-10,10) to calculate log_Density_Scaled.
+
+	It is difficult to come up with a statitics with only 3 good POIs.
+
+	Nonetheless, the density values of POI1 and POI3 are 3 orders higher than POI4. Hence, Density_Scaled, log_Density and log_Density_Scaled values are also skewed.
+	POI1 and POI3 attract more customers or requests per unit area of influence.
+
+	Assumptions: POI2 was dropped as outlier. POI2 data must be investigated to identify the cause of zero zone of influence. Bad data collection and formatting can be reasons for POI2 being outlier
+	
